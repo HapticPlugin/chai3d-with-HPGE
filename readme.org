@@ -35,9 +35,33 @@ Dependencies are specified in the [[file:guix.scm][guix.scm]] file and should be
 
 ** Windows
 
-You can run the script [[file:fetch_dependencies_win.sh]] under [[https://git-scm.com/downloads][git bash]].  It
+You can run the script [[file:fetch_dependencies_win.sh][fetch_dependencies_win.sh]] under [[https://git-scm.com/downloads][git bash]].  It
 requires a working Visual Studio installation.  If you have experience with
 windows, please help me out fixing this paragraph!
+
+You basically need to install:
+- python
+- ninja
+- meson
+- Visual Studio
+
+Then you *have to* reboot.
+
+Open a ~Windows Native Prompt~
+(e.g., =C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2019\Visual Studio Tools\VC\x64 Native Tools Command Prompt for VS 2019.lnk=)
+and run the following commands:
+
+#+begin_src bash
+meson.py --buildtype release --backend ninja buildVSNinjaRel
+ninja -C buildVSNinjaRel
+#+end_src
+
+(depending on how you installed meson, teh command might be =meson.py= or =meson=)
+
+Or if you want to hack it in visual studio:
+#+begin_src bash
+meson.py --buildtype release --backend vs2019 buildVSRel
+#+end_src
 
 * Reference
 For scientific publications, please reference HPGE:
