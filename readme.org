@@ -1,0 +1,23 @@
+* HPGE: Haptic Plugin for Game Engines
+
+This is the C/C++ library, based on CHAI3D, which can be used together with the
+[[https://github.com/HapticPlugin/HPGE-wrappers][HPGE-wrappers]] to use haptic devices in Unity3D.
+
+
+
+* Reference
+For scientific publications, please reference HPGE:
+
+#+begin_src bibtex
+@inproceedings{balzarotti2019hpge,
+  title={Hpge: an haptic plugin for game engines},
+  author={Balzarotti, Nicol{\`o} and Baud-Bovy, Gabriel},
+  booktitle={Games and Learning Alliance: 7th International Conference, GALA 2018, Palermo, Italy, December 5--7, 2018, Proceedings 7},
+  pages={330--339},
+  year={2019},
+  organization={Springer}
+}
+#+end_src
+
+(C) 2017-2023 by Istituto ITaliano di Tecnologia
+All Rights Reserved.

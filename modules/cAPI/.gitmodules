@@ -1,0 +1,3 @@
+[submodule "distrib"]
+	path = Release
+	url = git@gitlab.iit.it:dti/weDRAW/HPGE-distrib.git

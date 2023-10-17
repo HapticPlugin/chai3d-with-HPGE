@@ -1,0 +1,108 @@
+CHAI3D - The Open Source Haptic Framework
+-----------------------------------------
+
+
+Software License Agreement (BSD License)
+Copyright (c) 2003-2015, CHAI3D.
+(www.chai3d.org)
+
+
+All rights reserved.
+
+
+Redistribution and use in source and binary forms, with or without 
+modification, are permitted provided that the following conditions are met:
+
+
+* Redistributions of source code must retain the above copyright notice, this 
+list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright notice, 
+this  list of conditions and the following disclaimer in the documentation 
+and/or other materials provided with the distribution.
+
+* Neither the name of CHAI3D nor the names of its contributors may be used to 
+endorse or promote products derived from this software without specific prior 
+written permission.
+
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" 
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE 
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE 
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE 
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR 
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF 
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS 
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN 
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) 
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE 
+POSSIBILITY OF SUCH DAMAGE.
+
+
+
+________________________
+(C) 2003-2016 by CHAI3D
+All Rights Reserved.
+
+-----------------------------------------
+HPGE, an Haptic Plugin for Game Engines
+-----------------------------------------
+
+Software License Agreement (BSD License)
+Copyright (c) 2017-2023,
+Copyright © 2017-2019 Gabriel Baud-Bovy (gabriel.baud-bovy <at> iit.it)
+Copyright © 2017-2023 Nicolò Balzarotti (nicolo.balzarotti <at> iit.it)
+Istituto Italiano di Tecnologia (IIT), All rights reserved.
+
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+1. Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+
+3. Neither the name of HPGE, Istituto Italiano di Tecnologia nor the
+names of its contributors may be used to endorse or promote products
+derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+-----------------------------------------
+The following files are property of their respective owners:
+
+bin/win-x64/tdLeap64.dll
+bin/win-x64/Leap.dll
+bin/win-x64/sixense_x64.dll
+bin/win-x64/hdPhantom64.dll
+bin/win-Win32/hdPhantom32.dll
+bin/win-Win32/Leap.dll
+bin/win-Win32/sixense.dll
+bin/win-Win32/tdLeap32.dll
+extras/hdPhantom/deps/libPhantomIOLib42.so
+extras/hdPhantom/deps/libHD.so
+extras/hdPhantom/deps/libQHGLUTWrapper.so
+extras/hdPhantom/deps/hd.dll
+extras/hdPhantom/deps/libHL.so
+extras/hdPhantom/deps/libHDU.a
+extras/hdPhantom/deps/hl.lib
+extras/hdPhantom/deps/libQH.so
+extras/hdPhantom/deps/libSnapConstraints.a
+extras/hdPhantom/deps/hd.lib
+extras/hdPhantom/deps/hl.dll
+extras/hdPhantom/deps/libHLU.a
