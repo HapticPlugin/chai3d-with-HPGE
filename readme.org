@@ -3,7 +3,41 @@
 This is the C/C++ library, based on CHAI3D, which can be used together with the
 [[https://github.com/HapticPlugin/HPGE-wrappers][HPGE-wrappers]] to use haptic devices in Unity3D.
 
+* Compile Instructions
 
+** Linux
+
+If you are on a Guix System, or on a debian derivate, you can use guix to build
+the library
+
+#+begin_src bash
+# On debian-based only
+sudo apt install guix
+guix pull
+# After
+guix build -f guix.scm
+#+end_src
+
+Or you can install the dependencies and run
+#+begin_src bash
+meson build
+ninja -C build
+#+end_src
+
+Dependencies are specified in the [[file:guix.scm][guix.scm]] file and should be:
+- libusb
+- eigen
+- meson
+- ninja
+- pkg-config
+- gcc
+- ncurses5 (required for the phantom device only)
+
+** Windows
+
+You can run the script [[file:fetch_dependencies_win.sh]] under [[https://git-scm.com/downloads][git bash]].  It
+requires a working Visual Studio installation.  If you have experience with
+windows, please help me out fixing this paragraph!
 
 * Reference
 For scientific publications, please reference HPGE:
@@ -19,5 +53,5 @@ For scientific publications, please reference HPGE:
 }
 #+end_src
 
-(C) 2017-2023 by Istituto ITaliano di Tecnologia
+(C) 2017-2023 by Istituto Italiano di Tecnologia
 All Rights Reserved.
