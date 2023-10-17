@@ -63,6 +63,7 @@ Or if you want to hack it in visual studio:
 meson.py --buildtype release --backend vs2019 buildVSRel
 #+end_src
 
+
 * Reference
 For scientific publications, please reference HPGE:
 
@@ -79,3 +80,7 @@ For scientific publications, please reference HPGE:
 
 (C) 2017-2023 by Istituto Italiano di Tecnologia
 All Rights Reserved.
+
+HPGE contributors:
+- Nicolò Balzarotti
+- Gabriel Baud-Bovy
