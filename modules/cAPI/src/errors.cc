@@ -3,7 +3,7 @@
 
 // Software License Agreement (BSD License)
 // Copyright (c) 2017-2023,
-// Copyright © 2017-2019 Gabriel Baud-Bovy (gabriel.baud-bovy <at> iit.it)
+// Copyright © 2017-2019 Gabriel Baud-Bovy (gbaudbovy <at> gmail.com)
 // Copyright © 2017-2023 Nicolò Balzarotti (nicolo.balzarotti <at> iit.it)
 // Istituto Italiano di Tecnologia (IIT), All rights reserved.
 //
